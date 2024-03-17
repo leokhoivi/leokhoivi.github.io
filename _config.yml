@@ -1,26 +1,22 @@
 # Site settings
-name: Brittany Chiang
-title: Brittany Chiang | Front End Software Engineer
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://bchiang7.github.io/
+name: Leo Nguyen
+title: Leo Nguyen | Research Analyst
+description: Research analyst, blogger, web developer, editor... you get the picture
+url: https://leokhoivi.github.io/
 baseurl: ''
-email: brittany.chiang@gmail.com
+email: leokhoivi@gmail.com
 cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+logo: https://leokhoivi.github.io/img/emojis/technologist.png
+resume: https://leokhoivi.github.io/resume.pdf
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
+    url: mailto:leokhoivi@gmail.com
   - title: twitter
-    url: https://twitter.com/bchiang7
-  - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
+    url: https://twitter.com/leokhoivi
   - title: github
-    url: https://github.com/bchiang7
+    url: https://github.com/leokhoivi
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/leokhoivi
 
 # Build settings
 markdown: kramdown
