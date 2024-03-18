@@ -4,34 +4,34 @@
     <!-- <p>I’ve picked up quite a few skills during the course of my three co-ops, and aim to improve these skills everyday. Here are a few of the technologies that I have experience with:</p> -->
     <div class="skillz">
       <div class="skillz__category">
-        <div class="skillz__category__label">Languages</div>
+        <div class="skillz__category__label">R&A</div>
         <ul>
-          {% for language in site.data.skills.languages %}
-          <li class="skillz__category__item">{{language.item}}</li>
+          {% for language in site.data.skills.ra %}
+          <li class="skillz__category__item">{{ra.item}}</li>
           {% endfor %}
         </ul>
       </div>
       <div class="skillz__category">
-        <div class="skillz__category__label">Frameworks</div>
+        <div class="skillz__category__label">Marketing</div>
         <ul>
-          {% for framework in site.data.skills.frameworks %}
-          <li class="skillz__category__item">{{framework.item}}</li>
+          {% for framework in site.data.skills.marketing %}
+          <li class="skillz__category__item">{{marketing.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">Coding</div>
+        <ul>
+          {% for tool in site.data.skills.coding %}
+          <li class="skillz__category__item">{{coding.item}}</li>
           {% endfor %}
         </ul>
       </div>
       <div class="skillz__category">
         <div class="skillz__category__label">Tools</div>
         <ul>
-          {% for tool in site.data.skills.tools %}
-          <li class="skillz__category__item">{{tool.item}}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="skillz__category">
-        <div class="skillz__category__label">Design</div>
-        <ul>
-          {% for thing in site.data.skills.design %}
-          <li class="skillz__category__item">{{thing.item}}</li>
+          {% for thing in site.data.skills.tools %}
+          <li class="skillz__category__item">{{tools.item}}</li>
           {% endfor %}
         </ul>
       </div>
