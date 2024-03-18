@@ -1,33 +1,29 @@
-languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
-  - item: Python
-  - item: SQL
-  - item: R
+ra:
+  - item: Competitive intel
+  - item: Open-source research
+  - item: Market research
+  - item: Competitor analysis
 
-frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+marketing:
+  - item: Copywriting
+  - item: Editing
+  - item: SEO
+  - item: Keyword research
+  - item: Project Management
+  - item: Email marketing
+
+coding:
+  - item: HTML
+  - item: CSS
+  - item: SCSS / Sass
+  - item: SQL
+  - item: JavaScript
 
 tools:
-  - item: Bash
-  - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
-  - item: Postman
-  - item: MongoDB
-
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
+  - item: WordPress
+  - item: Mailchimp
+  - item: Semrush & Ahrefs
+  - item: Microsoft Suite
+  - item: Google Analytics
+  - item: Canva & Photoshop
   - item: User Testing
