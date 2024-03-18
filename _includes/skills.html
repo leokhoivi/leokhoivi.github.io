@@ -6,7 +6,7 @@
       <div class="skillz__category">
         <div class="skillz__category__label">R&A</div>
         <ul>
-          {% for language in site.data.skills.ra %}
+          {% for ra in site.data.skills.ra %}
           <li class="skillz__category__item">{{ra.item}}</li>
           {% endfor %}
         </ul>
@@ -14,7 +14,7 @@
       <div class="skillz__category">
         <div class="skillz__category__label">Marketing</div>
         <ul>
-          {% for framework in site.data.skills.marketing %}
+          {% for marketing in site.data.skills.marketing %}
           <li class="skillz__category__item">{{marketing.item}}</li>
           {% endfor %}
         </ul>
@@ -22,7 +22,7 @@
       <div class="skillz__category">
         <div class="skillz__category__label">Coding</div>
         <ul>
-          {% for tool in site.data.skills.coding %}
+          {% for coding in site.data.skills.coding %}
           <li class="skillz__category__item">{{coding.item}}</li>
           {% endfor %}
         </ul>
@@ -30,7 +30,7 @@
       <div class="skillz__category">
         <div class="skillz__category__label">Tools</div>
         <ul>
-          {% for thing in site.data.skills.tools %}
+          {% for tools in site.data.skills.tools %}
           <li class="skillz__category__item">{{tools.item}}</li>
           {% endfor %}
         </ul>
