@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include head.html %}
+  <base href="https://perchance.org/" target="_parent">
+  <meta name="referrer" content="no-referrer">
+  <script>try{window.localStorage.testIfWeCanReadLocalStorageWithoutDOMError}catch(err){console.log("localStorage is disallowed. Adding a 'dummy' polyfill.");Object.defineProperty(window,"localStorage",{value:new Proxy({},{set:(t,k,v)=>t[k]=String(v)})})}</script> <script>let __localToken = "LOCAL"; // downloader changes this to "LOCAL"
+  function __inIframe () {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true;
+    }
+  }
+  // to prevent *direct* null.perchance.org / <publicId>.perchance.org access (but let it run however if it's a local copy):
+  if(!__inIframe() && __localToken !== "LOCAL"){window.location.href="https://perchance.org/freelance-writing-prompt-generator";} // not to self: don't change this without changing generator downloader script</script> <script>window.__ignorePerchanceErrors=!1,window.generatorName="freelance-writing-prompt-generator",window.generatorPublicId="ba83284d5af862cc388128bd0bd5b288",window.__parentWindow=window.parent;</script>
+</head>
+<body class="not-found">
+  {{ content }}
+  {% include scripts.html %}
+</body>
+</html>
